@@ -147,7 +147,7 @@ function JobApplication() {
     });
 
     try {
-      const res = await fetch("http://localhost:5000/api/careers/apply", {
+      const res = await fetch("https://techlynx-backend-1.onrender.com/api/careers/apply", {
         method: "POST",
         body: data,
       });
